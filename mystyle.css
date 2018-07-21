@@ -1,0 +1,286 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+
+
+body{
+
+    background: url(https://www.mechatronicsart.com/wp-content/uploads/2016/06/Vilarpac_website_background.jpg);
+}
+
+.menu_top{
+
+
+   background-color: #3e474f;
+   padding: 32px;
+   height: 5px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   left: 0;
+   margin-top: -12px;
+
+
+   /* border: 1px solid red;*/
+    
+
+}
+.btn{
+
+    margin-left: 52px;
+    font-size: 18px;
+    color: #b2bbbd;
+}
+.btn_1{
+
+    
+    border-right: 2px solid rgba(255,255,255,0.1);
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 12px;
+}
+
+.btn:hover{
+
+    color:white;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+
+
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;}
+
+    .fa-linkedin {
+        padding:10px 14px;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition: .5s;
+        background-color: #322f30;
+    }
+    .fa-linkedin:hover {
+        background-color: #0073a4;
+    }    
+
+    .fa-instagram {
+        padding:10px 14px;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition: .5s;
+        background-color: #322f30;
+    }
+    .fa-instagram:hover {
+        background-color: #e44059;
+    }    
+
+    .fa-google-plus {
+        padding:10px 9px;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition: .5s;
+        background-color: #322f30;
+    }
+    .fa-google-plus:hover {
+        background-color: #db4437;
+    }
+  footer{
+
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    /*background: #322f30;*/
+    -webkit-font-smoothing: antialiased;
+    height: 167px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4px;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: url(http://www.propertybuyer.com/wp-content/uploads/2016/09/footer-background.jpg)
+  }
+
+
+.profil{
+
+    display: flex;
+    justify-content: center;
+}  
+.image{
+
+    border-radius: 94px;
+    width: 13%;
+    height: 15%;
+    margin-top: 80px;
+    box-shadow: 0px 7px 7px grey;
+    transition: transform .1s; /* Animation */
+}
+
+.image:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.description{
+
+    display: flex;
+    justify-content: center;
+}
+
+.image_2{
+
+    height: 319px;
+    width: 1337px;
+}
+p{
+
+    text-align: center;
+    font-size: 19px;
+    color: #3e474f;
+    margin-top: 0px;
+}
+.fa-calendar{
+
+    font-size: 20px;
+    margin-left: 78px;
+    margin-top: 48px;
+    border-right: 1px solid black;
+    padding-right: 44px;
+    padding-bottom: 8px;
+    padding-top: 3px;
+}
+
+.fa-briefcase{
+    font-size: 20px;
+    margin-left: 78px;
+    margin-top: 48px;
+
+}
+
+.description_projet_1{
+margin-left: -419px;
+margin-top: 31px;
+
+}
+
+.description_projet_2{
+
+    margin-left: -636px;
+    margin-top: 31px;
+}
+
+.description_projet_3{
+
+    margin-left: -469px;
+    margin-top: 31px;
+}
+.description_projet_4{
+
+    margin-left: -361px;
+    margin-top: 31px;
+}
+.description_projet_5{
+
+    margin-left: -751px;
+    margin-top: 31px;
+}
+
+.description_projet_6 {
+    margin-left: -860px;
+    margin-top: 31px;
+}
+
+.description_projet_7{
+
+    margin-left: -876px;
+    margin-top: 31px
+}
+
+.contact_me{
+display: flex;
+    margin-left: 104px;
+    height: 154px;
+}
+
+.fa-phone{
+
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.fa-envelope{
+
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.info{
+
+    margin-left: 113px;
+
+}
+.fa-phone:before {
+    content: "\f095";
+    padding: 12px;
+}
+.fa-envelope:before {
+    content: "\f0e0";
+    padding: 12px;
+}
+.plus_dinfo {
+
+    margin-left: 104px;
+
+}
+.cv{
+
+    color: firebrick;
+    margin-left: 20px;
+}
